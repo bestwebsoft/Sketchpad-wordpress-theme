@@ -1,6 +1,7 @@
 <?php
 
 function sketchpad_setup() {
+	global $content_width;
 	/* Makes Sketchpad available for translation */
 	load_theme_textdomain( 'sketchpad', get_template_directory() . '/languages' );
 
@@ -119,4 +120,3 @@ add_filter( 'wp_title', 'sketchpad_wp_title', 10, 2 );
 add_action( 'wp_enqueue_scripts', 'sketchpad_script' );
 add_action( 'customize_register', 'sketchpad_customize_register' );
 add_filter( 'wp_footer', 'sketchpad_content_height' );
-?>

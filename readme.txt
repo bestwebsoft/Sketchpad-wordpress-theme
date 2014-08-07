@@ -3,7 +3,7 @@ Contributors: the BestWebSoft team
 Tags: brown, two-columns, right-sidebar, fixed-layout, custom-background, custom-header, featured-images, translation-ready
 Requires at least: 3.7
 Tested up to: 3.9.1
-Stable tag: 1.7
+Stable tag: 1.8
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Sketchpad WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -11,9 +11,7 @@ Sketchpad is distributed under the terms of the GNU GPL
 
 == Description ==
 
-The Sketchpad theme for WordPress is a simple solution to customize your website. It's a simple and very powerful tool for organizing your blog or other websites.
-You may change some design elements from Admin UI like: background of page, color of site title, header image. Features include custom logo and favicon (under Appearance > Customize).
-Theme supports navigation menu, which is located at the top of the page. Also the theme support right sidebar and standard widgets. If you do not use any widgets, widget «Pages» is shown by default.
+If you are looking for a great theme to note down your thoughts, experience or best practices, there hardly is a better option that Sketchpad - a convenient all-in-one solution to making your website look stylish and uncluttered at the same time. This theme is designed as a twenty-first-century notepad, combining the traditional elegance of notetaking with a nouveau worldview. This way, any ideas of yours will fit in harmoniously, and your readers will appreciate a polished yet completely unintrusive interface. Sektchpad will be most well-suited for business news, journalist reviews, morning news, personal opinion blogs, event reviews, business ideas, case studies, cuisine, book stores, book reviews and many, many more. Check out Sketchpad at: http://bestwebsoft.com/wordpress_demo_theme/sketchpad/
 
 = Features =
 
@@ -115,6 +113,9 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Changelog ==
 
+= V1.8 - 04.08.2014 =
+* Bugfix: Minor fixes.
+
 = V1.7 - 12.05.2014 =
 * Update: Updated code of output logo & favicon
 * Bugfix: Other minor fixes
@@ -169,26 +170,29 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Upgrade Notice ==
 
-= V1.7 - 12.05.2014 =
+= V1.8 - 04.08.2014 =
+Bugfix: Minor fixes.
+
+= V1.7 =
 Update: Updated code of output logo & favicon. Bugfix: Other minor fixes.
 
-= V1.6 - 30.04.2014 =
+= V1.6 =
 Disabled custom logo by default. Disabled custom favicon by default. Other minor fixes.
 
-= V1.5 - 18.04.2014 =
+= V1.5 =
 Display title and tagline was fixed. Code formatting was fixed. Display of various posts formats was updated. Support for customization logo and favicon was added.
 
-= V1.4 - 10.04.2014 =
+= V1.4 =
 Cross-browser compatible was fixed. Changed Theme name to 'Sketchpad'.
 
-= V1.3 - 09.04.2014 =
+= V1.3 =
 Support for color customization site title was added. Support for selecting the format of posts was added. Template files formats posts were added. Css-styles were fixed. Information in the comments css-files was updated. Copyright information was updated. The description of the theme was updated. Other fixes.
 
-= V1.2 - 03.04.2014 =
+= V1.2 =
 Screenshot of theme was updated. Style of navigation menu was fixed. Header was fixed. Display of Featured Image on the pages was fixed. Display of images on pages was fixed. Display of galleries pages was fixed. Footer was updated. Semantic markup of html5 was fixed. Code formatting was fixed. Other fixes.
 
-= V1.1 - 28.03.2014 =
+= V1.1 =
 Display of page elements and widgets was fixed. Style for the table of special characters was added. Support for menu navigation was added. Code formatting was fixed. Other fixes.
 
-= V1.0 - 21.03.2014 =
+= V1.0 =
 Release date of Sketchpad.
