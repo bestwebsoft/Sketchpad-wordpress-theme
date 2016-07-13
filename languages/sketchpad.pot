@@ -1,8 +1,9 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Sketchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-13 16:37+0300\n"
+"POT-Creation-Date: 2016-07-13 16:25+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
 "Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
@@ -10,110 +11,119 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:13
 msgid "Page not Found..."
-msgstr "Страница не найдена..."
+msgstr ""
 
 #: 404.php:15 archive.php:35 index.php:37
 msgid "Try using the search form"
-msgstr "Попробуйте воспользоваться формой поиска"
+msgstr ""
 
 #: archive.php:33 index.php:35
+#, fuzzy
 msgid "Not Found..."
-msgstr "Ничего не найдено..."
+msgstr "Ничего не найдено"
 
 #: comments.php:21
+#, fuzzy
 msgid "Comments are closed."
-msgstr "Комментирование закрыто."
+msgstr "Комментарии запрещены"
 
 #: comments.php:25
 #, php-format
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
-msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:38
+#, fuzzy
 msgid "Reply"
 msgstr "Ответить"
 
 #: comments.php:39
 msgid "Log in to Reply"
-msgstr "Для комментирования нужно войти/зарегистрироваться"
+msgstr ""
 
 #: comments.php:52
+#, fuzzy
 msgctxt "noun"
 msgid "Comment"
-msgstr "Комментарий"
+msgstr "комментарий"
 
 #: comments.php:53
+#, fuzzy
 msgid "You must be "
-msgstr "Вы должны "
+msgstr "Введите адрес сайта."
 
 #: comments.php:53
 msgid "logged in"
-msgstr "войти"
+msgstr ""
 
 #: comments.php:53
+#, fuzzy
 msgid " to post a comment."
-msgstr " для комментирования."
+msgstr "Комментировать"
 
 #: comments.php:54
 msgid "Logged in as "
-msgstr "Вы вошли как "
+msgstr ""
 
 #: comments.php:54
 msgid "Log out of this account"
-msgstr "Выйти из этого аккаунта"
+msgstr ""
 
 #: comments.php:54
 msgid " Log out?"
-msgstr " Выйти?"
+msgstr ""
 
 #: comments.php:55
+#, fuzzy
 msgid "Your email address will not be published."
-msgstr "Ваш электронный адрес не будет опубликован."
+msgstr "Ваш email адрес не будет опублекован."
 
 #: comments.php:56
+#, fuzzy
 msgid "You may use these "
-msgstr "Вы можете использовать такие "
+msgstr "Вы можете использовать эти"
 
 #: comments.php:56
 #, php-format
 msgid " tags and attributes: %s"
-msgstr " теги и атрибуты: %s"
+msgstr ""
 
 #: comments.php:57
+#, fuzzy
 msgid "Leave a Reply"
 msgstr "Оставить комментарий"
 
 #: comments.php:58
-#, php-format
+#, fuzzy, php-format
 msgid "Leave a Reply to %s"
-msgstr "Ответить на комментарий %s"
+msgstr "Оставить комментарий к %s"
 
 #: comments.php:59
+#, fuzzy
 msgid "Cancel reply"
 msgstr "Отменить ответ"
 
 #: comments.php:60
+#, fuzzy
 msgid "Post Comment"
-msgstr "Опубликовать"
+msgstr "Комментировать"
 
 #: content-aside.php:20 content-audio.php:20 content-chat.php:20
 #: content-gallery.php:20 content-image.php:20 content-link.php:20
 #: content-quote.php:20 content-status.php:20 content-video.php:20
 #: content.php:17 content.php:26 image.php:19
+#, fuzzy
 msgid "edit"
 msgstr "изменить"
 
@@ -121,20 +131,22 @@ msgstr "изменить"
 #: content-gallery.php:22 content-image.php:22 content-link.php:22
 #: content-quote.php:22 content-status.php:22 content-video.php:22
 #: content.php:28 image.php:21
+#, fuzzy
 msgid "posted by "
-msgstr "опубликовал "
+msgstr "Опубликовал "
 
 #: content-aside.php:25 content-audio.php:25 content-chat.php:25
 #: content-gallery.php:25 content-image.php:25 content-link.php:25
 #: content-quote.php:25 content-status.php:25 content-video.php:25
 #: content.php:31 image.php:24
 msgid " in "
-msgstr " в "
+msgstr ""
 
 #: content-aside.php:44 content-audio.php:37 content-chat.php:45
 #: content-gallery.php:40 content-image.php:37 content-link.php:44
 #: content-quote.php:44 content-status.php:44 content-video.php:37
 #: content.php:52 image.php:60
+#, fuzzy
 msgid "Pages:"
 msgstr "Страницы:"
 
@@ -143,150 +155,101 @@ msgstr "Страницы:"
 #: content-quote.php:49 content-status.php:49 content-video.php:42
 #: content.php:58
 msgid "read comments"
-msgstr "комментарии"
+msgstr ""
 
 #: content-aside.php:55 content-audio.php:48 content-chat.php:59
 #: content-gallery.php:51 content-image.php:48 content-link.php:55
 #: content-quote.php:55 content-status.php:55 content-video.php:48
 #: content.php:66 image.php:66
+#, fuzzy
 msgid "Tags: "
-msgstr "Метки: "
+msgstr "Тэги: "
 
 #: content-chat.php:54 content.php:61
 msgid "more"
-msgstr "подробнее"
+msgstr ""
 
 #: content.php:8
+#, fuzzy
 msgid "Page: "
-msgstr "Страница: "
+msgstr "Страница"
 
 #: footer.php:17
-#, php-format
+#, fuzzy, php-format
 msgid "Powered by %s and %s"
 msgstr "Создано %s и %s"
 
 #: functions.php:18
+#, fuzzy
 msgid "Primary menu"
 msgstr "Основное меню"
 
 #: functions.php:113
 msgid "Logo (supported formats: .jpg, .png, .gif)"
-msgstr "Логотип (поддерживаемые форматы: .jpg, .png, .gif)"
+msgstr ""
 
 #: functions.php:115
 msgid "Upload a logo to be displayed on the left above the header"
-msgstr "Загрузите логотип, который будет отображаться слева над хедером"
+msgstr ""
 
 #: functions.php:126
-msgid "Site icon (supported formats: .jpg, .png, .gif)"
-msgstr "Иконка сайта (поддерживаемые форматы: .jpg, .png, .gif)"
+msgid "Site icon (supported formats: .ico, .jpg, .png, .gif)"
+msgstr ""
 
 #: functions.php:128
 msgid "The Site Icon is used as a browser and app icon for your site."
-msgstr "Иконка сайта используется в браузере и на экранах мобильных устройств."
+msgstr ""
 
 #: image.php:33
-#, php-format
+#, fuzzy, php-format
 msgid "Full size is %s pixels"
-msgstr "Полный размер %s пикселей"
+msgstr "Разрешение файла %s пикселей"
 
 #: image.php:36
+#, fuzzy
 msgid "Link to full-size image"
-msgstr "Ссылка на изображение в полном размере"
+msgstr "Ссылка на полноразмерное изображение"
 
 #: image.php:43
+#, fuzzy
 msgid "Click to full-size image: "
-msgstr "Открыть изображение в полном размере: "
+msgstr "Полноразмерное изображение: "
 
 #: image.php:53
+#, fuzzy
 msgid "Previous Image"
 msgstr "Предыдущее изображение"
 
 #: image.php:55
+#, fuzzy
 msgid "Next Image"
 msgstr "Следующее изображение"
 
 #: search.php:11
+#, fuzzy
 msgid "Search results for: "
-msgstr "Результаты поиска для: "
+msgstr "Результаты поиска:"
 
 #: search.php:34
 msgid "Sorry, no results for your search request..."
-msgstr "Извините, по вашему запросу ничего не найдено..."
+msgstr ""
 
 #: search.php:36
+#, fuzzy
 msgid "Try to search again"
-msgstr "Попробуйте поискать еще"
+msgstr "Попытайтесь поискать еще"
 
 #: searchform.php:11
+#, fuzzy
 msgid "Enter search keyword"
-msgstr "Введите искомое слово"
+msgstr "Ключевое слово для поиска"
 
 #: searchform.php:12
+#, fuzzy
 msgid "search"
 msgstr "поиск"
 
 #: sidebar.php:21
-msgid "Pages: "
-msgstr "Страницы: "
-
-#~ msgid "Posts by: "
-#~ msgstr "Публикации автора: "
-
-#~ msgid "Archives for Tag: "
-#~ msgstr "Архив для Метки: "
-
-#~ msgid "Archives for: "
-#~ msgstr "Архив за: "
-
-#~ msgid "Page %s"
-#~ msgstr "Страница %s"
-
-#~ msgid "Logo & Favicon"
-#~ msgstr "Логотип и Фавикон"
-
-#~ msgid "Category: "
-#~ msgstr "Категория: "
-
-#~ msgid "%d Responses to &ldquo; %s &rdquo;"
-#~ msgstr "%d комментария(ев) к &ldquo; %s &rdquo;"
-
-#~ msgid "Logo"
-#~ msgstr "Логотип"
-
-#~ msgid "Favicon"
-#~ msgstr "Фавикон"
-
 #, fuzzy
-#~ msgid "Image"
-#~ msgstr "Следующее изображение"
-
-#~ msgid " and "
-#~ msgstr " и "
-
-#~ msgid ""
-#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
-#~ "tags and attributes: %s"
-#~ msgstr ""
-#~ "Вы можете использовать эти <abbr title=\"HyperText Markup Language"
-#~ "\">HTML</abbr> теги и атрибуты: %s"
-
-#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-#~ msgstr ""
-#~ "Для комментирования нужно <a href=\"%s\">войти/зарегистрироваться</a>."
-
-#~ msgid ""
-#~ "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
-#~ "of this account\">Log out?</a>"
-#~ msgstr ""
-#~ "Вы вошли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
-#~ "of this account\">Выйти?</a>"
-
-#~ msgid "Design by: "
-#~ msgstr "Дизайн: "
-
-#~ msgid "and partners: "
-#~ msgstr "и партнеры: "
-
-#~ msgid "%d Responses to &ldquo; %s &rdquo; "
-#~ msgstr "%d комментария(ев) к &ldquo; %s &rdquo; "
+msgid "Pages: "
+msgstr "Страницы:"

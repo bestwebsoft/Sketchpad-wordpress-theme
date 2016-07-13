@@ -1,17 +1,19 @@
 === Sketchpad ===
-Contributors: the BestWebSoft team
-Tags: brown, two-columns, right-sidebar, fixed-layout, custom-background, custom-header, featured-images, translation-ready
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.8
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: http://bestwebsoft.com/donate/
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, sticky-post, threaded-comments, featured-images, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 1.9
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Sketchpad WordPress Theme, Copyright 2014 BestWebSoft.com
-Sketchpad is distributed under the terms of the GNU GPL
+Sketchpad WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Sketchpad is distributed under the terms of the GNU GPL
 
 == Description ==
 
-If you are looking for a great theme to note down your thoughts, experience or best practices, there hardly is a better option that Sketchpad - a convenient all-in-one solution to making your website look stylish and uncluttered at the same time. This theme is designed as a twenty-first-century notepad, combining the traditional elegance of notetaking with a nouveau worldview. This way, any ideas of yours will fit in harmoniously, and your readers will appreciate a polished yet completely unintrusive interface. Sektchpad will be most well-suited for business news, journalist reviews, morning news, personal opinion blogs, event reviews, business ideas, case studies, cuisine, book stores, book reviews and many, many more. Check out Sketchpad at: http://bestwebsoft.com/wordpress_demo_theme/sketchpad/
+If you are looking for a great theme to note down your thoughts, experience or best practices, there hardly is a better option that Sketchpad - a convenient all-in-one solution to making your website look stylish and uncluttered at the same time. This theme is designed as a twenty-first-century notepad, combining the traditional elegance of notetaking with a nouveau worldview. This way, any ideas of yours will fit in harmoniously, and your readers will appreciate a polished yet completely unintrusive interface. Sketchpad will be most well-suited for business news, journalist reviews, morning news, personal opinion blogs, event reviews, business ideas, case studies, cuisine, book stores, book reviews and many, many more. Check out Sketchpad at: http://wp-demo-theme.bestweblayout.com/sketchpad/
 
 = Features =
 
@@ -30,7 +32,7 @@ If you are looking for a great theme to note down your thoughts, experience or b
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme =
 
@@ -83,9 +85,9 @@ By default in the sidebar the following widgets will be displayed: pages.
 
 == Frequently Asked Questions ==
 
-= How can I change the language from English into Russian? =
+= How can I change language from English into Russian? =
 
-In the main catalog of your WordPress site find file wp-config.php, open it and change define( ‘WPLANG’, '' ); for define( ‘WPLANG’, ‘ru_RU’ );
+Change the language in the admin settings screen. Settings > General > Site Language.
 
 = How to use the custom header image? =
 
@@ -113,8 +115,21 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Changelog ==
 
+= v1.9 - 13.07.2016 =
+* New:    The 'title-tag' theme support was added.
+* New:    The 'custom-logo' theme support was added.
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Unnecessary files category.php, author.php and tag.php have been removed.
+* Update: Theme functionality was improved.
+* Update: Translation was updated.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
 = V1.8 - 04.08.2014 =
-* Bugfix: Minor fixes.
+* Bugfix: all bugs was fixed
+* New: Pot file was added
 
 = V1.7 - 12.05.2014 =
 * Update: Updated code of output logo & favicon
@@ -170,8 +185,11 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Upgrade Notice ==
 
-= V1.8 - 04.08.2014 =
-Bugfix: Minor fixes.
+= V1.9 =
+The 'title-tag' theme support was added. The 'custom-logo' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php, author.php and tag.php have been removed. Theme functionality was improved. Translation was updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
+= V1.8 =
+Bugfix: all bugs was fixed. Pot file was added.
 
 = V1.7 =
 Update: Updated code of output logo & favicon. Bugfix: Other minor fixes.
