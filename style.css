@@ -4,7 +4,7 @@ Theme URI: http://bestweblayout.com/products/sketchpad/
 Author: BestWebLayout
 Author URI: http://bestweblayout.com/
 Description: If you are looking for a great theme to note down your thoughts, experience or best practices, there hardly is a better option that Sketchpad - a convenient all-in-one solution to making your website look stylish and uncluttered at the same time. This theme is designed as a twenty-first-century notepad, combining the traditional elegance of notetaking with a nouveau worldview. This way, any ideas of yours will fit in harmoniously, and your readers will appreciate a polished yet completely unintrusive interface. Sektchpad will be most well-suited for business news, journalist reviews, morning news, personal opinion blogs, event reviews, business ideas, case studies, cuisine, book stores, book reviews and many, many more. Check out Sketchpad at: http://wp-demo-theme.bestweblayout.com/sketchpad/
-Version: 1.9
+Version: 2.0
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, sticky-post, threaded-comments, featured-images, translation-ready
@@ -293,7 +293,6 @@ input.search-button {
 	position: relative;
 	float: left;
 	height: 100%;
-	background: #F4EDDF;
 }
 
 .main-navigation li a {
@@ -360,7 +359,6 @@ input.search-button {
 	width: 590px;
 	border: none;
 	border-top: 2px solid #776B53;
-	background: #f4eddf;
 }
 
 /** 2.3.1 Post
@@ -766,6 +764,11 @@ img.attachment-featured-image {
 	font-weight: bold;
 	font-size: 14px;
 	font-family: Arial;
+}
+
+.prev-post a:hover,
+.next-post a:hover {
+	text-decoration: none;
 }
 
 /* Post Sticky */
@@ -1315,6 +1318,10 @@ section cite {
 	font-size: 12px;
 	font-family: Arial;
 	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #776b53;
 }
 
 .must-log-in a {

@@ -19,7 +19,8 @@ if ( post_password_required() ) {
 <div id="comments" class="comments-area">
 	<?php if ( ! comments_open() ) { ?>
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'sketchpad' ); ?></p>
-	<?php } // ! comments_open
+		<?php return;
+	} // ! comments_open
 	if ( have_comments() ) { ?>
 		<h3 class="comments-title">
 			<?php printf( _n( 'One response to &ldquo;%2$s&rdquo;', '%1$s Responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'sketchpad' ), number_format_i18n( get_comments_number() ), get_the_title() ); ?>

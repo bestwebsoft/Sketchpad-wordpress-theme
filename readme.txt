@@ -4,8 +4,8 @@ Author URI: http://bestweblayout.com/
 Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, sticky-post, threaded-comments, featured-images, translation-ready
 Requires at least: 4.2
-Tested up to: 4.5.3
-Stable tag: 1.9
+Tested up to: 4.6
+Stable tag: 2.0
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Sketchpad WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -68,7 +68,7 @@ Installation using "Add New Theme"
 3. Click the 'Install' button to open the theme's repository listing
 4. Click the 'Install' button
 
-Activiation and Use
+Activation and Use
 
 1. Activate the Theme through the 'Themes' menu in WordPress
 
@@ -80,7 +80,7 @@ To post thumbnails we recommend using the image with width equal to 503px.
 
 = Widgets =
 
-The Theme supports standart Widgets.
+The Theme supports standard Widgets.
 By default in the sidebar the following widgets will be displayed: pages.
 
 == Frequently Asked Questions ==
@@ -115,7 +115,10 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Changelog ==
 
-= v1.9 - 13.07.2016 =
+= V2.0 - 25.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
+= V1.9 - 13.07.2016 =
 * New:    The 'title-tag' theme support was added.
 * New:    The 'custom-logo' theme support was added.
 * Bugfix: Fixed mismatch coding standards.
@@ -185,14 +188,17 @@ From your Admin Panel, use the menu to select Plugins -> Add New. Search the nec
 
 == Upgrade Notice ==
 
+= V2.0 =
+* The compatibility with new WordPress version updated.
+
 = V1.9 =
 The 'title-tag' theme support was added. The 'custom-logo' theme support was added. Fixed mismatch coding standards. Fixed theme styles. Unnecessary files category.php, author.php and tag.php have been removed. Theme functionality was improved. Translation was updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
 
 = V1.8 =
-Bugfix: all bugs was fixed. Pot file was added.
+All bugs was fixed. Pot file was added.
 
 = V1.7 =
-Update: Updated code of output logo & favicon. Bugfix: Other minor fixes.
+Updated code of output logo & favicon. Other minor fixes.
 
 = V1.6 =
 Disabled custom logo by default. Disabled custom favicon by default. Other minor fixes.

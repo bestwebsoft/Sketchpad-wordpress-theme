@@ -1,20 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Sketchpad\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-13 16:37+0300\n"
+"Project-Id-Version: Sketchpad v2.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-25 11:34+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -23,11 +25,11 @@ msgstr ""
 msgid "Page not Found..."
 msgstr "Страница не найдена..."
 
-#: 404.php:15 archive.php:35 index.php:37
+#: 404.php:15 archive.php:36 index.php:38
 msgid "Try using the search form"
 msgstr "Попробуйте воспользоваться формой поиска"
 
-#: archive.php:33 index.php:35
+#: archive.php:34 index.php:36
 msgid "Not Found..."
 msgstr "Ничего не найдено..."
 
@@ -35,7 +37,7 @@ msgstr "Ничего не найдено..."
 msgid "Comments are closed."
 msgstr "Комментирование закрыто."
 
-#: comments.php:25
+#: comments.php:26
 #, php-format
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
@@ -43,70 +45,70 @@ msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
 
-#: comments.php:38
+#: comments.php:39
 msgid "Reply"
 msgstr "Ответить"
 
-#: comments.php:39
+#: comments.php:40
 msgid "Log in to Reply"
 msgstr "Для комментирования нужно войти/зарегистрироваться"
 
-#: comments.php:52
+#: comments.php:53
 msgctxt "noun"
 msgid "Comment"
 msgstr "Комментарий"
 
-#: comments.php:53
+#: comments.php:54
 msgid "You must be "
 msgstr "Вы должны "
 
-#: comments.php:53
+#: comments.php:54
 msgid "logged in"
 msgstr "войти"
 
-#: comments.php:53
+#: comments.php:54
 msgid " to post a comment."
 msgstr " для комментирования."
 
-#: comments.php:54
+#: comments.php:55
 msgid "Logged in as "
 msgstr "Вы вошли как "
 
-#: comments.php:54
+#: comments.php:55
 msgid "Log out of this account"
 msgstr "Выйти из этого аккаунта"
 
-#: comments.php:54
+#: comments.php:55
 msgid " Log out?"
 msgstr " Выйти?"
 
-#: comments.php:55
+#: comments.php:56
 msgid "Your email address will not be published."
 msgstr "Ваш электронный адрес не будет опубликован."
 
-#: comments.php:56
+#: comments.php:57
 msgid "You may use these "
 msgstr "Вы можете использовать такие "
 
-#: comments.php:56
+#: comments.php:57
 #, php-format
 msgid " tags and attributes: %s"
 msgstr " теги и атрибуты: %s"
 
-#: comments.php:57
+#: comments.php:58
 msgid "Leave a Reply"
 msgstr "Оставить комментарий"
 
-#: comments.php:58
+#: comments.php:59
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Ответить на комментарий %s"
 
-#: comments.php:59
+#: comments.php:60
 msgid "Cancel reply"
 msgstr "Отменить ответ"
 
-#: comments.php:60
+#: comments.php:61
 msgid "Post Comment"
 msgstr "Опубликовать"
 
@@ -169,19 +171,27 @@ msgstr "Создано %s и %s"
 msgid "Primary menu"
 msgstr "Основное меню"
 
-#: functions.php:113
+#: functions.php:70
+msgid "Right Sidebar Widget"
+msgstr "Правая боковая панель"
+
+#: functions.php:72
+msgid "Right Widget Area"
+msgstr "Правая область для виджетов"
+
+#: functions.php:114
 msgid "Logo (supported formats: .jpg, .png, .gif)"
 msgstr "Логотип (поддерживаемые форматы: .jpg, .png, .gif)"
 
-#: functions.php:115
+#: functions.php:116
 msgid "Upload a logo to be displayed on the left above the header"
 msgstr "Загрузите логотип, который будет отображаться слева над хедером"
 
-#: functions.php:126
+#: functions.php:127
 msgid "Site icon (supported formats: .jpg, .png, .gif)"
 msgstr "Иконка сайта (поддерживаемые форматы: .jpg, .png, .gif)"
 
-#: functions.php:128
+#: functions.php:129
 msgid "The Site Icon is used as a browser and app icon for your site."
 msgstr "Иконка сайта используется в браузере и на экранах мобильных устройств."
 
@@ -210,11 +220,11 @@ msgstr "Следующее изображение"
 msgid "Search results for: "
 msgstr "Результаты поиска для: "
 
-#: search.php:34
+#: search.php:35
 msgid "Sorry, no results for your search request..."
 msgstr "Извините, по вашему запросу ничего не найдено..."
 
-#: search.php:36
+#: search.php:37
 msgid "Try to search again"
 msgstr "Попробуйте поискать еще"
 
@@ -226,9 +236,8 @@ msgstr "Введите искомое слово"
 msgid "search"
 msgstr "поиск"
 
-#: sidebar.php:21
-msgid "Pages: "
-msgstr "Страницы: "
+#~ msgid "Pages: "
+#~ msgstr "Страницы: "
 
 #~ msgid "Posts by: "
 #~ msgstr "Публикации автора: "

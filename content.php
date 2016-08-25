@@ -18,7 +18,7 @@
 			} else { ?>
 				<time class="post-date" datetime="<?php the_time( 'Y-m-d' ); ?>">
 					<?php if ( is_singular() ) {
-						echo get_the_date();
+						printf( '<a href="%1$s" title="%2$s">%3$s</a>', esc_url( ( is_singular() ) ? get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) : get_the_permalink() ), the_title_attribute( 'echo=0' ), get_the_date() );
 					} else {
 						echo '<a href="' . get_permalink() . '">' . get_the_date() . '</a>';
 					} ?>

@@ -15,15 +15,15 @@
 	<div class="sidebar">
 		<?php if ( is_active_sidebar( 'sidebar' ) ) {
 			dynamic_sidebar( 'sidebar' );
-		} else { ?>
-			<section>
-				<header>
-					<h4><?php _e( 'Pages: ', 'sketchpad' ); ?></h4>
-				</header>
-				<ul>
-					<?php wp_list_pages( array( 'title_li' => '' ) ); ?>
-				</ul>
-			</section>
-		<?php } ?>
+		} else {
+			$args     = array(
+				'before_widget' => '<section class="widget %s">',
+				'after_widget'  => '</section>',
+				'before_title'  => '<header><h4 class="widgettitle">',
+				'after_title'   => '</h4></header>',
+			);
+			$instance = array();
+			the_widget( 'WP_Widget_Pages', $instance, $args );
+		} ?>
 	</div><!--.sidebar-->
 </aside>

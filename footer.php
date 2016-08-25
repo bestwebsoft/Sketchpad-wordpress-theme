@@ -11,7 +11,7 @@
 	<div class="footer">
 		<div class="site-info">
 			<span class="left">
-				<?php echo '&copy; ' . date_i18n( 'Y' ) . ' ' . get_bloginfo( 'name' ); ?>
+				<?php echo '&copy; ' . date_i18n( 'Y ' ) . get_bloginfo( 'name' ); ?>
 			</span>
 			<span class="right">
 				<?php printf( __( 'Powered by %s and %s', 'sketchpad' ), '<a href = "' . esc_url( wp_get_theme()->get( 'AuthorURI' ) ) . '">BestWebLayout</a>', '<a href = "' . esc_url( 'http://wordpress.org/' ) . '">WordPress</a>' ); ?>

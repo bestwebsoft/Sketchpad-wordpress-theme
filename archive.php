@@ -15,9 +15,10 @@ get_header(); ?>
 			while ( have_posts() ) :
 				the_post();
 				get_template_part( 'content', get_post_format() );
-		endwhile; ?>
+			endwhile; ?>
 			<div class="pagination"><!--page pagination-->
-				<?php $big = 999999999; // need an unlikely integer
+				<?php global $wp_query;
+				$big = 999999999; // need an unlikely integer
 				echo paginate_links( array(
 					'base'      => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
 					'format'    => '?paged=%#%',
